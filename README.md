@@ -10,7 +10,7 @@ This project is a mini AI agent that reads and analyzes the **Universal Credit A
 - ✅ Streamlit UI with one-click execution
 
 ## Model Used
-- **google/flan-t5-base** (Free, Hugging Face)
+- **facebook/bart-large-cnn** (Free, Hugging Face)
 
 ## How To Run
 
