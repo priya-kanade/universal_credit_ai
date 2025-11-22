@@ -68,7 +68,8 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
-    print(f"[Task-4] Rule evaluation completed → {OUTPUT}")
+    print(f"[Task-4] Rule evaluation completed: {OUTPUT}")
+
 
 
 if __name__ == "__main__":

@@ -58,7 +58,8 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
-    print(f"[Task-3] Extracted sections → {OUTPUT}")
+    print(f"[Task-3] Extracted sections: {OUTPUT}")
+
 
 
 if __name__ == "__main__":

@@ -23,7 +23,7 @@ def run_task(script_name):
 if st.button("🚀 Run Full AI Pipeline (All Tasks)"):
     with st.spinner("Running Tasks... Please wait..."):
         run_task("task1_extract_text.py")
-        run_task("task2_summarize_ai.py")
+        run_task("task2_summarize_act.py")
         run_task("task3_extract_sections.py")
         run_task("task4_rule_checks.py")
 
